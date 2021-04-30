@@ -2,7 +2,7 @@
 
 ## Use this tutorial
 
-Visit https://mybinder.org/v2/gh/bluesky/tutorial-anomaly-time-series/main?urlpath=lab.
+visit https://mybinder.org/v2/gh/bluesky/tutorial-anomaly-time-series/main?urlpath=lab.
 
 If you experience trouble with that link, you can check to see whether Binder is
 having an outage or undergoing maintenance at
@@ -58,7 +58,7 @@ https://mybinder.readthedocs.io/en/latest/about/status.html.
 3. Build and start this tutorial container.
 
    ```
-   jupyter-repo2docker --editable .
+   jupyter-repo2docker --editable . jupyter lab --NotebookApp.default_url=/lab
    ```
 
    This process will take about a minute, perhaps longer the first time you run it.
@@ -72,10 +72,6 @@ https://mybinder.readthedocs.io/en/latest/about/status.html.
    in the output. When you are done, you can use Ctrl+C to stop the Jupyter server, as usual.
 
 4. Navigate your Internet browser to the URL displayed by `jupyter-repo2docker`'s output.
-   You will see the "Classic" notebook by default. Edit the URL, replacing
-   `/tree` with `/lab`. You will now see JupyterLab. (This is where users
-   will land by default. We only have to do the URL-mugnging business when
-   we are *editing* the tutorial.)
 
 5. Be sure to read the next section about committing changes!
 
@@ -137,5 +133,5 @@ After making changes to the configuration, you will need to stop the
 Jupyter server (Ctrl+C twice, as usual) and start it again. As before:
 
 ```
-jupyter-repo2docker --editable .
+jupyter-repo2docker --editable . jupyter lab --NotebookApp.default_url=/lab
 ```

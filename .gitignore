@@ -21,6 +21,7 @@ parts/
 sdist/
 var/
 venv/
+.venv/
 *.egg-info/
 .installed.cfg
 *.egg
@@ -102,3 +103,9 @@ docs/source/Powder Diffraction
 .jupyter/
 .local/
 .jupyter-server-log.txt
+
+.config/
+.npm/
+.viminfo*
+.bash_history
+.keras/

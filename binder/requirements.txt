@@ -1,3 +1,2 @@
 ipympl  # enables interactive matplotlib plots with `%matplotlib widget`
 matplotlib
-jupyterlab==3.*
