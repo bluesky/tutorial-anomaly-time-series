@@ -1,4 +1,4 @@
-# Tutorial: Adaptive
+# Tutorial: Anomaly Time Series Detection
 
 ## Use this tutorial
 
