@@ -1,5 +1,6 @@
 ipympl  # enables interactive matplotlib plots with `%matplotlib widget`
 matplotlib
+nbgitpuller
 pandas
 sklearn
 statsmodels
